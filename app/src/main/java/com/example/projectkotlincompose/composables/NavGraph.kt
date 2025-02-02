@@ -16,7 +16,7 @@ fun NavGraph(
 
     NavHost(
         navController = navController,
-        startDestination = "home" // Définit "login" comme page initiale
+        startDestination = "login" // Définit "login" comme page initiale
     ) {
         composable(route = "home") {
             HomeScreen(navController)
